@@ -1,0 +1,15 @@
+{
+  "name": "my-webpack",
+  "version": "1.0.0",
+  "description": "云流烟的第一个webpack项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "yunl yunliuyan\u001b[B",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}

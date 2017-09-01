@@ -1,0 +1,11 @@
+Webpack的使用
+1：cnpm init
+（找到一个文件，进行搭建webpack工程）
+2：cnpm install --save-dev webpack
+(加载node_modules)
+3:建立public(index.html),app(yun.js,main)
+4：node_modules/.bin/webpack app/main.js public/bundle.js
+(webpack进行打包)
+5:创建webpack.config.js文件(配置项目入口，输出文件之类)
+(webpack node_modules/.bin/webpack app/main.js public/bundle.js)
+6：在webpack.json里面”script”对象添加启动名代替webpack
